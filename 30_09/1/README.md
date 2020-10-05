@@ -1,7 +1,7 @@
 git clone repo  
 
-найти все копии файлвов:  
+найти все копии файлов:  
 python3 scr.py examples find  
 
-заменить все копии файлвов:  
+заменить все копии на хардлинки:  
 python3 scr.py examples replace  
