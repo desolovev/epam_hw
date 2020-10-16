@@ -3,11 +3,11 @@ from tabulate import tabulate
 import sys
 
 try:
-    connection = psycopg2.connect(user="user_pg",
-                                  password="user_pg_pass",
+    connection = psycopg2.connect(user="postgres",
+                                  password="postgres",
                                   host="127.0.0.1",
                                   port="5432",
-                                  database="db1")
+                                  database="epam")
 
     cursor = connection.cursor()
 
@@ -52,7 +52,7 @@ try:
             and Company = %s
             limit 10
         ;"""
-        # and Company = %s
+        
         cursor.execute(query, (comp, comp))
         final_rec = []
         for rec in cursor:
@@ -94,8 +94,8 @@ if __name__ == '__main__':
     # par_2 = 'Wells Fargo & Company'
     par_1 = sys.argv[1]
     par_2 = sys.argv[2]
-    par_3 = sys.argv[3]
     if par_1 == 'do1':
+        par_3 = sys.argv[3]
         print(do1(cursor, par_2, par_3))
     elif par_1 == 'do2':
         print(do2(cursor, par_2))
