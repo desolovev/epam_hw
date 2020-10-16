@@ -12,7 +12,7 @@ how to run:
 ``python3 scr.py do1 data_start data_end``  
 
 example:  
-``python3 scr.py do1 '2012-07-29' '2012-07-29'``  
+``python3 scr.py do1 '2012-07-29' '2014-07-29'``  
 
 **task2:**  
 
