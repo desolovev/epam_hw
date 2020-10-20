@@ -1,13 +1,14 @@
 import psycopg2
 from tabulate import tabulate
 import sys
+from scr_connect import DB_NAME, DB_PORT, DB_USR, DB_PWD, DB_HOST
 
 try:
-    connection = psycopg2.connect(user="postgres",
-                                  password="postgres",
-                                  host="127.0.0.1",
-                                  port="5432",
-                                  database="epam")
+    connection = psycopg2.connect(user=DB_USR,
+                                  password=DB_PWD,
+                                  host=DB_HOST,
+                                  port=DB_PORT,
+                                  database=DB_NAME)
 
     cursor = connection.cursor()
 

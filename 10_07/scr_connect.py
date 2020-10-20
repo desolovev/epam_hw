@@ -1,0 +1,5 @@
+DB_NAME = 'epam'
+DB_PORT = '5432'
+DB_USR = 'postgres'
+DB_PWD = 'postgres'
+DB_HOST = '127.0.0.1'
