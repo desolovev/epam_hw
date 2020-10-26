@@ -1,5 +1,3 @@
-git clone repo  
-
 найти все копии файлов:  
 python3 scr.py examples find  
 
