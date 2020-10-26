@@ -1,4 +1,4 @@
-DB_NAME = 'public'
+DB_NAME = 'postgres'
 DB_PORT = '5432'
 DB_USR = 'postgres'
 DB_PWD = 'postgres'

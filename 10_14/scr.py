@@ -14,8 +14,9 @@ try:
 
 
     def find_film(cursor, film_name, genre):
-        # film_name = 'big | hero'
-        # genre = 'comedy & drama'
+        # add separation
+        film_name = film_name.replace(' ', ' | ')
+        genre = genre.replace(' ', ' & ')
         query = """
             select movie_title
                 , actor_1_name
@@ -50,9 +51,8 @@ except (Exception, psycopg2.Error) as error:
     print("Error while connecting to PostgreSQL", error)
 
 if __name__ == '__main__':
-    # film_name = 'big | hero'
-    # genre = 'comedy & drama'
-
+    # film_name = 'big hero'
+    # genre = 'comedy drama family'
     film_name = sys.argv[1]
     genre = sys.argv[2]
 

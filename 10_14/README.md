@@ -10,6 +10,6 @@ Sort results by imdb_score.
 how to run:  
 ``python3 scr.py film_name genres``  
 
-example:  
-``python3 scr.py do1 'big | hero' 'comedy & drama'``  
+example (space is a separator):  
+``python3 scr.py 'big hero' 'comedy drama'``  
 
