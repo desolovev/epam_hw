@@ -12,7 +12,7 @@
 ### Копируем файл с hdfs на машину:  
 ![alt tag](https://i.imgur.com/CvUxS6Q.png "Копируем файл с hdfs на машину")  
 
-### Преобразуем .java в .jab:  
+### Компилируем файл:  
 ![alt tag](https://i.imgur.com/R30usPK.png "Преобразуем .java в .jab")  
 
 ### Запускаем job:  
