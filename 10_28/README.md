@@ -7,7 +7,7 @@
 ![alt tag](https://i.imgur.com/YoJ84f0.png "Установленный HDFS")  
   
 ### Загруженный файл:  
-![alt tag](https://i.imgur.com/xK2RpgN.png "Загруженный файл")  
+![alt tag](https://i.imgur.com/IdJzpxU.png "Загруженный файл")  
 
 ### Копируем файл с hdfs на машину:  
 ![alt tag](https://i.imgur.com/CvUxS6Q.png "Копируем файл с hdfs на машину")  
