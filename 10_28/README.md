@@ -4,22 +4,22 @@
 Реализовать word count с помощью hdfs map reduce.
 
 Установленный HDFS:  
-![alt tag](https://i.imgur.com/YoJ84f0.png "Установленный HDFS")
+![alt tag](https://i.imgur.com/YoJ84f0.png "Установленный HDFS")  
   
-Загруженный файл:
-![alt tag](https://i.imgur.com/xK2RpgN.png "Загруженный файл")
+Загруженный файл:  
+![alt tag](https://i.imgur.com/xK2RpgN.png "Загруженный файл")  
 
-Копируем файл с hdfs на машину:
-![alt tag](https://i.imgur.com/CvUxS6Q.png "Копируем файл с hdfs на машину")
+Копируем файл с hdfs на машину:  
+![alt tag](https://i.imgur.com/CvUxS6Q.png "Копируем файл с hdfs на машину")  
 
-Преобразуем .java в .jab:
-![alt tag](https://i.imgur.com/R30usPK.png "Преобразуем .java в .jab")
+Преобразуем .java в .jab:  
+![alt tag](https://i.imgur.com/R30usPK.png "Преобразуем .java в .jab")  
 
-Запускаем job:
-![alt tag](https://i.imgur.com/VoxrUdu.png "Запускаем job")
+Запускаем job:  
+![alt tag](https://i.imgur.com/VoxrUdu.png "Запускаем job")  
 
-Статус выполнения job:
-![alt tag](https://i.imgur.com/EaYS1vP.png "Статус выполнения job")
+Статус выполнения job:  
+![alt tag](https://i.imgur.com/EaYS1vP.png "Статус выполнения job")  
 
-Результат выполнения:
-![alt tag](https://i.imgur.com/TmzyL6j.png "Результат выполнения")
+Результат выполнения:  
+![alt tag](https://i.imgur.com/TmzyL6j.png "Результат выполнения")  
